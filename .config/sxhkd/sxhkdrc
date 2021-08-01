@@ -6,6 +6,9 @@
 # Personal changes 
 #
 
+# screenshot
+shift + Print
+	scrot
 # increase display backlight
 ctrl + shift + Right
 	xbacklight -inc 5
@@ -18,8 +21,7 @@ ctrl + shift + Left
 ctrl + shift + Up
      pulseaudio-ctl up
 # volume down
-ctrl + shift + Down
-       pulseaudio-ctl down
+ctrl + shift + Down pulseaudio-ctl down
 
 #
 # End Personal changes 
